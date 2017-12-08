@@ -3,7 +3,12 @@ node_modules/
 dist/*
 npm-debug.log
 yarn-error.log
-!.gitkeep
+src/*
+.babelrc
+.eslintignore
+.eslintrc.js
+webpack.config.js
+package.json
 
 # Editor directories and files
 .idea
