@@ -1,0 +1,92 @@
+body {
+  background: #fafafa;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eee
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 8px
+}
+
+.header {
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  height: 60px;
+  z-index: 999;
+  font-size: 30px;
+  position: fixed;
+  line-height: 60px;
+  background: #3ca4f7;
+  padding: 0 30px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
+}
+
+.header .title {
+  line-height: 60px;
+  font-size: 24px;
+  margin: 0;
+}
+
+.header .title a {
+  display: inline-block;
+  color: #fff;
+}
+
+.content {
+  margin-left: 200px;
+  margin-top: 60px;
+  padding: 20px 50px;
+  min-height: 300px;
+  margin-bottom: 30px
+}
+
+.header-options {
+  float: right
+}
+
+.header-options > li {
+  display: inline-block;
+  margin-left: 18px;
+  font-size: 16px;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: text-bottom;
+  font-weight: 300;
+  cursor: pointer
+}
+
+.header-options > li.invalid {
+  opacity: .7;
+  cursor: not-allowed;
+}
+
+.el-mask {
+  z-index: 999!important
+}
+
+.el-modal-wrapper {
+  z-index: 999!important
+}
+
+.theme-rows .el-col-2 {
+  text-align: center
+}
+
+.theme-rows .el-col-2 p{
+  margin-bottom: 10px;
+}
+
+.theme-rows .el-col-2 .rc-color-picker-trigger{
+  width: 50px;
+  height: 30px;
+}
