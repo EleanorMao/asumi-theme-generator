@@ -73,43 +73,43 @@ class Index extends Component {
       close: false,
       content: (
         <Row className='theme-rows'>
-          <GridCol col={2}>
+          <GridCol col={4}>
             <p>默认色</p>
             <div>
               <ColorPicker color={colors['$default$']} animation='slide-up' onChange={this.handlePick.bind(this, '$default$')} />
             </div>
           </GridCol>
-          <GridCol col={2}>
+          <GridCol col={4}>
             <p>主题色</p>
             <div>
               <ColorPicker color={colors.$primary$} animation='slide-up' onChange={this.handlePick.bind(this, '$primary$')} />
             </div>
           </GridCol>
-          <GridCol col={2}>
+          <GridCol col={4}>
             <p>成功色</p>
             <div>
               <ColorPicker color={colors.$success$} animation='slide-up' onChange={this.handlePick.bind(this, '$success$')} />
             </div>
           </GridCol>
-          <GridCol col={2}>
+          <GridCol col={4}>
             <p>危险色</p>
             <div>
               <ColorPicker color={colors.$error$} animation='slide-up' onChange={this.handlePick.bind(this, '$error$')} />
             </div>
           </GridCol>
-          <GridCol col={2}>
+          <GridCol col={4}>
             <p>警告色</p>
             <div>
               <ColorPicker color={colors.$warning$} animation='slide-up' onChange={this.handlePick.bind(this, '$warning$')} />
             </div>
           </GridCol>
-          <GridCol col={2}>
+          <GridCol col={4}>
             <p>失效色</p>
             <div>
               <ColorPicker color={colors.$disabled$} animation='slide-up' onChange={this.handlePick.bind(this, '$disabled$')} />
             </div>
           </GridCol>
-          <GridCol col={12} style={{marginTop: 70, textAlign: 'center'}}>
+          <GridCol col={24} style={{marginTop: 70, textAlign: 'center'}}>
             <Input onChange={({value}) => {
               this.setState({theme_name: value})
             }} placeholder='请输入主题名' style={{display: 'block'}} />
